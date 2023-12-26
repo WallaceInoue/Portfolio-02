@@ -14,10 +14,10 @@
         </div>
         <div>
             <ul class="nav-links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -32,10 +32,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#" onclick="toggleMenu()">About</a></li>
-                <li><a href="#" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -59,7 +59,86 @@
                 <img class="icon" src="assets/github.png" alt="linkedin" onclick="location.href='https://github.com'">
             </div>
         </div>
-        
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="assets/about-pic.png" alt="" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>1 year <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree <br></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt impedit vero maiores, ea corporis minus pariatur suscipit laborum architecto saepe similique in blanditiis inventore possimus aliquam quam recusandae deserunt tenetur!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt impedit vero maiores, ea corporis minus pariatur suscipit laborum architecto saepe similique in blanditiis inventore possimus aliquam quam recusandae deserunt tenetur!</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container" style="max-width: 450px;">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="icon" class="icon">
+                            <div> <h3>HTML</h3> <p>intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="icon" class="icon">
+                            <div> <h3>CSS</h3> <p>intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="icon" class="icon">
+                            <div> <h3>JavaScript</h3> <p>intermediate</p></div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="icon" class="icon">
+                            <div> <h3>PHP</h3> <p>Basic</p></div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="icon" class="icon">
+                            <div> <h3>WordPress</h3> <p>Basic</p></div>
+                        </article>
+                    </div>
+                </div>
+                <div >
+                    <img src="assets/programing.jpg" alt="" class="experience-pic">
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="" class="icon" onclick="location.href='./#project'">
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/project-1.png" alt="" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='//github.com'">Github</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
