@@ -24,6 +24,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 15vh;
+    
 }
 .nav-links{
     display: flex;
@@ -78,7 +79,7 @@ a{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.833);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -288,4 +289,57 @@ article{
 }
 article .icon{
     cursor: default;
+}
+/* Projects Section */
+#projects{
+    position: relative;
+}
+
+.project-img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    max-height:600px;
+    
+}
+.project-title{
+    color: black;
+
+}
+/* CONTACT SECTION */
+#contact{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+}
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: gray 0.1rem solid;
+    background: ;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.contact-info-container p {
+    font-size: large;
+}
+/*  FOOTER */
+footer{
+    height: 26hv;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.487);
+}
+footer p{
+    text-align: center;
 }
